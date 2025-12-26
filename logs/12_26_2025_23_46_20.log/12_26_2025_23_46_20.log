@@ -1,0 +1,2 @@
+[ 2025-12-26 23:46:21,966 ] 149 tensorflow - WARNING - From C:\Users\djadh\Downloads\hindi digits\hienv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
