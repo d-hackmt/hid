@@ -1,0 +1,18 @@
+[ 2025-12-26 22:22:32,319 ] 14 root - INFO - Training pipeline started
+[ 2025-12-26 22:22:32,319 ] 20 root - INFO - Entered the data ingestion method or component
+[ 2025-12-26 22:22:32,320 ] 42 root - INFO - Found data at: data\numerals
+[ 2025-12-26 22:22:32,411 ] 63 root - INFO - Read dataset with 22880 records
+[ 2025-12-26 22:22:32,461 ] 69 root - INFO - Train test split initiated
+[ 2025-12-26 22:22:32,504 ] 75 root - INFO - Ingestion of the data is completed
+[ 2025-12-26 22:22:32,506 ] 19 root - INFO - Data Ingestion Completed
+[ 2025-12-26 22:22:32,546 ] 26 root - INFO - Read train and test data completed
+[ 2025-12-26 22:22:32,546 ] 28 root - INFO - Obtaining training and testing arrays
+[ 2025-12-26 22:25:25,663 ] 33 root - INFO - Transformed shapes: X_train=(18304, 32, 32, 1), X_test=(4576, 32, 32, 1)
+[ 2025-12-26 22:25:25,663 ] 24 root - INFO - Data Transformation Completed
+[ 2025-12-26 22:25:25,663 ] 23 root - INFO - Initializing Neural Network Model
+[ 2025-12-26 22:25:25,773 ] 42 root - INFO - Starting training
+[ 2025-12-26 22:26:09,232 ] 46 root - INFO - Training completed. Evaluating model...
+[ 2025-12-26 22:26:09,890 ] 49 root - INFO - Test Accuracy: 0.9822989702224731
+[ 2025-12-26 22:26:09,890 ] 51 root - INFO - Saving model to artifacts\model.h5
+[ 2025-12-26 22:26:09,890 ] 83 absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+[ 2025-12-26 22:26:09,937 ] 29 root - INFO - Model Training Completed with Accuracy: 0.9822989702224731
